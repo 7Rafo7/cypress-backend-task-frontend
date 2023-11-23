@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    width: 90%;
+}
+
+.card {
+    border: 1px solid black;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.boxContainer {
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.cartActions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price,
+.buyBtn
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+.price {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyBtn {
+    cursor: pointer;
+}

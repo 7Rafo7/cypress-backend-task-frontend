@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+You need to run both backend & frontend,
+then you register some users & select them role(user registration is simple because there was nothing about it:D)
+& the rest data, after login system will recognise user role & will redirect the specific for that role page.
+
+Sorry for poor css & typescript(I am out of time right now to correct all :D ) :D
+

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.wrapper {
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+    row-gap: 70px;
+}
+.tableContainer {
+    width: 100%;
+}
+
+.table {
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+.table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.table thead tr {
+    background: grey;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.inputContainer input{
+    height: 100%;
+}
